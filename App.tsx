@@ -3,8 +3,8 @@
  */
 
 import React from 'react';
-import {CoreComponents} from './components';
+import {Cafe} from './components';
 
-const App = () => <CoreComponents />;
+const App = () => <Cafe />;
 
 export default App;
