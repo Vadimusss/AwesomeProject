@@ -5,7 +5,6 @@ type CatProps = {
   name: string;
   source: {uri: string};
   size: {
-    width: string | number;
     height: string | number;
   };
 };
@@ -24,7 +23,7 @@ const Cat = (props: CatProps) => {
     <View
       // eslint-disable-next-line react-native/no-inline-styles
       style={{
-        height: '100%',
+        height: 400
       }}>
       <Image source={props.source} style={props.size} />
       <Text style={styles.catSayTextStyles}>

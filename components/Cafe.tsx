@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {Cat} from './index';
+import {Cat, FishTranslator} from './index';
 
 const styles = StyleSheet.create({
   cafeTitleTextStyles: {
@@ -19,8 +19,9 @@ const Cafe = () => {
           uri: 'https://natalyland.ru/wp-content/uploads/1/1/8/118c2c4bf1e1106f57d640e22759b3cd.jpeg',
         }}
         // eslint-disable-next-line react-native/no-inline-styles
-        size={{width: 'auto', height: '50%'}}
+        size={{height: '100%'}}
       />
+      <FishTranslator />
     </View>
   );
 };
