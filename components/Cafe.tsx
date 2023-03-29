@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {Cat, FishTranslator, ScrollAndLogos} from './index';
+import {Cat, FishTranslator, SectionListBasic} from './index';
 
 const styles = StyleSheet.create({
   cafeTitleTextStyles: {
@@ -22,7 +22,7 @@ const Cafe = () => {
         size={{height: 300, width: 'auto'}}
       />
       <FishTranslator />
-      <ScrollAndLogos />
+      <SectionListBasic />
     </View>
   );
 };
