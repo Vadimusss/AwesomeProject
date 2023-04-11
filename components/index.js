@@ -6,6 +6,7 @@ import FishTranslator from './FishTranslator';
 import ScrollAndLogos from './ScrollAndLogos';
 import FlatListBasics from './FlatListBasics';
 import SectionListBasic from './SectionListBasic';
+import ButtonExemples from './ButtonExemples';
 
 export {
   HelloWorld,
@@ -16,4 +17,5 @@ export {
   ScrollAndLogos,
   FlatListBasics,
   SectionListBasic,
+  ButtonExemples,
 };
