@@ -7,6 +7,7 @@ import ScrollAndLogos from './ScrollAndLogos';
 import FlatListBasics from './FlatListBasics';
 import SectionListBasic from './SectionListBasic';
 import ButtonExemples from './ButtonExemples';
+import Touchables from './Touchables';
 
 export {
   HelloWorld,
@@ -18,4 +19,5 @@ export {
   FlatListBasics,
   SectionListBasic,
   ButtonExemples,
+  Touchables,
 };
