@@ -1,6 +1,6 @@
 import React from 'react';
 // import {View, Text, StyleSheet} from 'react-native';
-import {ButtonExemples} from './index';
+import {Touchables} from './index';
 
 /* const styles = StyleSheet.create({
   cafeTitleTextStyles: {
@@ -10,7 +10,7 @@ import {ButtonExemples} from './index';
 }); */
 
 const Cafe = () => {
-  return <ButtonExemples />;
+  return <Touchables />;
 };
 
 export default Cafe;
